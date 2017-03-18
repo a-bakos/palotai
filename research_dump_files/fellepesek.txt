@@ -131,20 +131,16 @@ Január 29.	Budapest	Tütü Trafó / Rewind
 05/28	Budapest	Tütü Trafó / Rewind
 05/30	Eger	Club Egál
 05/31	Budapest	? / ?
-
 06/13	Debrecen	Klinika mozi
 06/20	Vekeri-tó	? / ?
-
 07/12	Tokaj	Hegyalja fesztivál / Rewind Special
 07/19	Gyöngyös	Efott fesztivál / Rewind Special
 07/25	Kapolcs	Rewind Special
-
 08/06	Budapest	West Balkán / Rewind
 08/20	Budapest	West Balkán / Rewind
 08/23	Budapest	Parádé / w/ Total Science
 08/27	Budapest	West Balkán / Rewind
 08/30	Budapest	West Balkán / Rewind Special
-
 Október 1. - Budapest A38 | Rewind
 Október 2. - Budapest Trafó | Nyitó
 Október 3. - Debrecen Lovarda
@@ -202,7 +198,6 @@ Március 25. - Sopron Hangár | Befõtt
 Március 26. -Eger Egál | Futureculture
 Március 27. - Budapest Kultiplex | Szkeg
 Március 28. - Budapest Trafó Bár Tangó | Sunday Session
-
 04/14	Budapest	Trafó / Rewind
 04/16	Temesvár	TM Base
 04/17	Budapest	Kandó fõiskola
@@ -290,12 +285,41 @@ Július 18. - Budapest Holdudvar | Sunday Session
 09/18	Budapest	? / ?
 09/24	Budapest	A38 / w/ Anima Sound System
 10/08	Eger	Egál
-10/23	Budapest	Tilos DJ Fesztivál
-10/29	Strasbourg	? / ?
-10/30	Strasbourg	? / ?
+Október 22. - Szarvas Zebra klub
+Október 23. -Budapest Kultiplex | Tilos Party
+Október 23. -Budapest A38 | w/ Howie B
+Október 27. - Budapest Trafo Bár Tango | Rewind
+Október 29. - Budapest Gyöngyös | Tiszti klub
+Október 30. - Dorog ? | ?
+10/31	Budapest	Trafó / Rewind Special
+11/03	Budapest	Trafó / Rewind
+11/05	Eger	Egál
 11/06	Budapest	Palme ház / Nowsound
+11/06	Budapest	Trafó / Sunday Session
+11/10	Budapest	Trafó / Rewind
+11/11	Budapest	Millenáris / Cinetrip Video
+11/13	Szombathely	Oladi
+11/17	Budapest	Trafó / Rewind
 11/19	Amsterdam	Melkweg
+11/20	Sopron	Hangár
+11/21	Budapest	Trafó / Sunday Session
+11/24	Budapest	Trafó / Rewind
+11/26	Budapest	A38 / Holland Évad w/ Laidback Luke
+11/27	Budapest	? / w/ Richard Dorfmeister
+12/01	Budapest	Trafó / Rewind
 12/03	Eger	Egál
+12/04	Budapest	Citadella / Fresh Air
+12/05	Budapest	Trafó / Sunday Session
+12/08	Budapest	Trafó / Rewind
+12/11	Székesfehérvár	The Base
+12/15	Budapest	Trafó / Rewind
+12/17	Debrecen	Lovarda / Pendulum
+12/18	Amsterdam	Felix Meritis
+12/19	Budapest	Trafó / Sunday Session
+12/22	Budapest	Trafó / Rewind
+12/25	Sopron	Hangár
+12/29	Budapest	Trafó / Rewind
+
 
 
 
