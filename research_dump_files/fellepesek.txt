@@ -353,12 +353,13 @@ Március 8. - Pécs Rák
 03/20	Budapest	Sunday Session
 03/23	Budapest	Trafó / Rewind
 03/25	Tokod	Zenit / NEO
+03/26	Gyöngyös	Tiszti klub
 03/27	Budapest	Trafó / Rewind Special
 03/29	Szeged	JATE / Balkan Fanatik
 03/30	Budapest	Trafó / Rewind
 04/01	Szekszárd	Rolling Rock
 Április 2. - Budapest A38 / Fresh A.R. / Aquasky
-04/03	Budapest	Sunday Session
+04/03	Budapest	Trafó / Rewind Sunday Session
 04/06	Budapest	Trafó / Rewind
 04/08	Debrecen	Lovarda / Sena Live + DJ Cadik
 04/09	Budapest	Trafó / Rewind Special w/ Baobinga
@@ -367,14 +368,132 @@ Március 8. - Pécs Rák
 04/16	Kecskemét	Le Fabrique / Anima S.S.
 04/17	Budapest	Trafó / Rewind
 04/20	Budapest	Trafó / Rewind
+04/22	Sárvár	Nádasy-vár / Artical Session
+04/23	Esztergom	Alpesi
 04/27	Budapest	Trafó / Rewind
 04/29	Sopron	Hangár
 05/14	Budapest	Syma Csarnok
 05/20	Csongrád	
 05/27	Eger Egál
 05/28	Sopron	Hangár
-06/03	Dijon	
-06/25	Budapest Kultiplex
-
-
-
+04/29	Székesfehérvár	Le Baron
+04/30	Budapest	Labirintus / Tilos Session
+05/04	Budapest	Trafó / Rewind
+05/05	Miskolc	Egyetemi napok / Anima S.S.
+05/06	Budapest	Kryptic Minds
+05/07	Nyíregyháza	Pyrus
+05/09	Budapest	Kultiplex / All Night Breakz
+05/11	Budapest	Mokka Cuka / Rewind
+05/13	Szeged	JATE
+05/14	Budapest	Pacha / Blade / Bailey + Paradinas
+05/15	Budapest	Mokka cuka / Rewind Special w/ Breakfastaz
+05/18	Budapest	Trafó / Summer Rain Rewind
+05/19	Kolozsvár	Tutankhamon
+05/20	Marosvásárhely	Avi-Cola
+05/21	Csíkszereda	Flash
+05/25	Budapest	Mokka Cuka / Rewind
+05/27	Eger	Egál
+05/27	Budapest	Mokka Cuka / Rewind Special w/ Blim
+05/28	Sopron	Hangár / Blim
+06/01	Budapest	Mokka Cuka / Rewind
+06/03	Dijon, Fr	
+06/04	Budapest	Mokka Cuka / Tilos Session
+06/07	Budapest	Kultiplex / Tilos Maraton
+06/08	Budapest	Mokka Cuka / Rewind
+06/10	Szeged	JATE
+06/15	Budapest	Mokka Cuka / Rewind
+06/17	Szombathely	
+06/18	Budapest	Mokka Cuka / F.O.J. / Andy C + Temper D + Cyantific
+06/22	Budapest	Mokka Cuka / Rewind
+06/24	Vekeri-tó	Fesztivál / Blim
+06/25	Budapest	Kultiplex
+06/29	Budapest	Mokka Cuka / Rewind
+07/01	Mezõtúr	
+07/02	Kecskemét	Movement Inside Fesztivál
+07/03	Budapest	A38 / Sunday Session
+07/04	Debrecen	
+07/06	Budapest	Mokka Cuka / Rewind
+07/08	Sopron	VOLT Fesztivál / Roni Size
+07/09	Baja	
+07/13	Budapest	Mokka Cuka / Rewind
+07/14	Zenta , Yu	Népkert / Zentai Nyári Ifjusági Játékok
+07/15	Kõröstarcsa	Fesztivál
+07/16	Tokaj	Hegyalja Fesztivál
+07/17	Budapest	A38 / Sunday Session
+07/19	Szombathely	Bartók Szeminárium / Herczku Ágnes
+07/20	Budapest	Mokka Cuka / Rewind
+07/21	Bukarest, Ro	Preoteasa
+07/22	Tusványos, Ro	Tusványosi Fesztivál
+07/23	Sopron	Hangár / Smithmonger
+07/27	Budapest	Mokka Cuka / Rewind
+07/30	Hajdúböszörmény	Kotta Fesztivál
+07/31	Marosvásárhely, Ro	Félsziget Fesztivál
+08/03	Budapest	Mokka Cuka / Rewind
+08/04	Nyírbátor	Fesztivál
+08/05	Budapest	A38 / Ollywood
+08/06	Budapest	Citadella / Swatch Dis
+08/10	Budapest	Mokka Cuka / Rewind / Sziget Fesztivál
+08/11	Budapest	Sziget Fesztivál / VOLT Fesztivál Sátor
+08/12	Budapest	Sziget Fesztivál / Bukem + Doc Scott
+08/13	Budapest	Sziget Fesztivál / Ambient Sátor
+08/15	Budapest	Sziget Fesztivál / Cinetrip
+08/17	Budapest	Mokka Cuka / Rewind
+08/26	Szeged	Ifjúsági Napok
+08/27	Budapest	A38 / Rennie Pilgrem
+08/27	Budapest	Parádé / Metalheadz / Fabio+Randall
+08/31	Budapest	Mokka Cuka / Rewind
+09/02	Dijon, Fr	
+09/03	Dijon, Fr	
+09/07	Budapest	Mokka Cuka / Rewind
+09/09	Roma, I	Torna Enzimi Festival / Castel Porziano
+09/10	Kecskemét	La Fabrique
+09/14	Budapest	Kultiplex / Rewind
+09/16	Miskolc	Tudomány és Technika Háza
+09/17	Budapest	Tûzraktár
+09/17	Budapest	Kultiplex
+09/21	Budapest	Kultiplex / Rewind
+09/23	Gyöngyös	Desperados
+09/24	Budapest	Mu Színház
+09/24	Debrecen	Klinika
+09/28	Budapest	Kultiplex / Rewind
+09/30	Nyíregyháza	
+10/01	Sopron	Hangár
+10/05	Budapest	Kultiplex / Rewind
+10/06	Miskolc	Rockwell / Rocktober
+10/07	Szeged	JATE klub
+10/08	Sárvár	Artical Session
+10/12	Budapest	Kultiplex / Rewind
+10/14	Eger	Egál
+10/15	Budapest	Pacha / Blade / Pendulum
+10/19	Budapest	Kultiplex / Rewind
+10/21	Nagykanizsa	Zoom Music Pub
+10/22	Szarvas	Zebra
+10/26	Budapest	Kultiplex / Rewind
+10/28	Szombathely	Minimum
+10/29	Budapest	A38 / Evil 9 & Ed 209
+11/02	Budapest	Kultiplex / Rewind
+11/04	Debrecen	Lovarda / Belga Lemezbemutató
+11/05	Budapest	Olof Palme Ház / Chew The Fat
+11/09	Budapest	Kultiplex / Rewind
+11/15	Szeged	JATE klub
+11/16	Budapest	Kultiplex / Rewind
+11/17	Budapest	A38 / Holland Night
+11/18	Szekszárd	Rolling Rock
+11/23	Budapest	Kultiplex / Rewind
+11/24	Kolozsvár	Sportcsarnok
+11/25	Miskolc	Rockwell
+11/26	Sopron	Hangár
+11/30	Budapest	Kultiplex / Rewind
+12/02	Tampere, Finn	
+12/03	Helsinki, Finn	
+12/07	Budapest	Kultiplex / Rewind
+12/09	Budapest	Millenáris / Másfél
+12/10	Budapest	A38 / John B
+12/14	Budapest	Kultiplex / Rewind
+12/16	Szeged	JATE klub
+12/17	Debrecen	Lovarda / Subfocus
+12/18	Lyon, Fr	
+12/21	Budapest	Kultiplex / Rewind
+12/25	Sopron	Hangár
+12/27	Szekszárd	Rolling Rock
+12/28	Budapest	Kultiplex / Rewind
