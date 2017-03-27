@@ -695,6 +695,7 @@ Június 6. - Kazincbarcika Sport
 Június 11. - Budapest Corvin / Rewind
 Június 13. - Szeged JATE
 Június 14. - Győr Fesztivál / Aquasky vs Noisia vs Coldcut
+06/14	Győr	Fesztivál / Aquasky vs Freestylers
 Június 18. - Budapest Corvin / Rewind
 06/20	Budapest-Visagrád	Hajó
 06/27	Cesena	Festival
@@ -726,11 +727,91 @@ Június 18. - Budapest Corvin / Rewind
 08/29	Budapest	Mokka Cuka Záró / Dub Pistols
 08/30	Somorja	One Festival
 09/03	Budapest	Corvin / Rewind
+09/03	Budapest	Merlin / Old Skool Bassline
 09/05	Nyíregyháza	Arsenal
 09/06	Pilisszentiván	Elízium
 09/10	Budapest	Corvin / Rewind
 09/17	Budapest	Corvin / Rewind
-09/20	Paris	???
+Szeptember 20. - Paris Technopol / TRG
 09/24	Budapest	Corvin / Rewind
-09/03	Budapest	Merlin / Old Skool Bassline
+Szeptember 26. - Budapest Cha Cha Cha
+Szeptember 27. - Budapest Merlin / Old Skool Bassline
+Október 1. - Budapest Corvin / Rewind
+Október 3. - Kecskemét Tudomány és Technika Háza
 10/04	Budapest	Cöxspon Café
+10/08	Budapest	Corvin / Rewind
+10/09	Miskolc	Rocktober
+10/10	Budapest	A38 / Forward / DJ Ludmilla
+10/11	Keszthely	???
+10/12	Budakalász	Budakalász / Bankett
+10/15	Budapest	Corvin / Rewind
+10/17	Budapest	Cha Cha Cha
+10/18	Szolnok	Hemo
+10/18	Budapest	Ráday Club - Lollipop / Azzido Da Bass
+10/21	Budapest	Morrison 2 / Belga
+10/22	Budapest	Corvin / Rewind
+10/24	Budapest	Dürer / Anselmo Crew
+10/25	Budapest	Mono
+10/29	Budapest	Corvin / Rewind
+10/30	Budapest	Magyar Nemzeti Galéria / Irókéz Gyűjtemény Kiállítás
+Oct 31 2008	12:00P CHA CHA CHA	BUDAPEST
+Nov 1 2008	12:00P MERLIN / OLD SKOOL HOUSE	BUDAPEST
+Nov 5 2008	12:00P CORVIN / REWIND	BUDAPEST
+11/07	Szeged	JATE
+11/08	Túrkeve	Művelődési Ház
+11/11	Eger	Érsek-kert
+11/12	Budapest	Corvin / Rewind
+11/14	Budapest	Cöxpon Café
+11/14	Budapest	Trafó / Bankett
+11/15	Budapest	Corvin / Anima S.S.
+11/19	Budapest	Corvin / Rewind
+11/21	Körmend	Stag Dance Club
+11/26	Budapest	Corvin / Rewind
+11/29	Debrecen	Lovarda
+12/03	Budapest	Corvin / Rewind
+12/06	Kalocsa	Vígadó
+12/10	Budapest	Corvin / Rewind
+12/17	Budapest	Corvin / Rewind
+12/20	Budapest	Mono
+Dec 20 2008	11:00P RUDAS / CINETRIP	BUDAPEST
+12/25	Budapest	Corvin / Rewind Xmas
+Dec 27 2008	12:00P CORVIN / REWIND SPECIAL	BUDAPEST
+Dec 31 2008	12:00P CORVIN / REWIND NEW YEAR PARTY	BUDAPEST
+
+2009
+
+Jan 1 2009	12:00P RUDAS / CINETRIP	BUDAPEST
+Jan 3 2009	 CÖXPON CAFÉ	BUDAPEST
+
+Jan 17 2009	12:00P CLUB PRIVÉ / MEAT KATIE	BUDAPEST
+Jan 17 2009	12:00P CHA CHA CHA BIRTHDAY PARTY	BUDAPEST
+Jan 21 2009	12:00P CORVIN / REWIND	BUDAPEST
+Jan 23 2009	12:00P JATE	SZEGED
+Jan 24 2009	12:00P BAMBUSZ	SZOMBATHELY
+Jan 28 2009	12:00P CORVIN / REWIND	BUDAPEST
+Feb 1 2009	12:00P TBC	TBC
+Feb 4 2009	12:00P CORVIN / REWIND	BUDAPEST
+Feb 5 2009	12:00P KUPLUNG / TILOS PARTY	BUDAPEST
+Feb 6 2009	12:00P CÖXPON CAFÉ	BUDAPEST
+Feb 7 2009	12:00P RÁDAY CLUB / LADY WAKS vs FREESTYLERS	BUDAPEST
+Feb 7 2009	12:00P RUDAS / CINETRIP	BUDAPEST
+Feb 11 2009	12:00P CORVIN / REWIND	BUDAPEST
+Feb 13 2009	12:00P JATE / ft DJ LUDMILLA	BUDAPEST
+Feb 14 2009	12:00P A38 / NINJA BREAKS ft AQUASKY	BUDAPEST
+Feb 18 2009	12:00P CORVIN / REWIND	BUDAPEST
+Feb 20 2009	12:00P TBC / 10 YEARS BLADERUNNAZ ft ED RUSH & OPTICAL	BUDAPEST
+Feb 21 2009	12:00P TBC	DUBLIN
+Feb 25 2009	12:00P CORVIN / REWIND	BUDAPEST
+Feb 28 2009	12:00P MONO / MONOTONE SESSION	BUDAPEST
+Mar 6 2009	12:00P KLINIKA / ELITE FORCE	DEBRECEN
+Mar 7 2009	12:00P RUDAS / CINETRIP	BUDAPEST
+Mar 20 2009	10:00P TBC / BANKETT DANCE THEATER	LILLE
+Apr 4 2009	12:00P RUDAS / CINETRIP	BUDAPEST
+Apr 23 2009	12:00P VÁSÁRHELYI PÁL KOLLÉGIUM / BRAINS	BUDAPEST
+May 1 2009	12:00P A38 /	BUDAPEST
+May 2 2009	12:00P RUDAS / CINETRIP	BUDAPEST
+May 2 2009	12:00P SONIC DANCE HALL	HAJDÚSZOBOSZLÓ
+Jun 20 2009	12:00P TBC	TBC
+Jun 23 2009	12:00P TBC	TBC
+Jun 26 2009	12:00P TBC	TBC
+Jun 27 2009	12:00P AÉRONEF	LILLE
