@@ -1,1 +1,3 @@
 # palotai
+
+#### research phase
