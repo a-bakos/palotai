@@ -2,7 +2,7 @@
 
 ### Source: [Google Fonts](https://fonts.google.com/)
 
-**For main title:**
+**For main [dj Palotai] title:**
 
 + Russo One [good]
    + Embedding:
@@ -24,3 +24,16 @@
 + Patua One
 + Righteous
 + Baloo Chettan
+
+** For subtitle [archive]:**
+
++ Ubuntu
+   + Embedding:
+   ``` HTML
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   ```
+   
+   + CSS:
+   ``` CSS
+   font-family: 'Ubuntu', sans-serif;
+   ```
