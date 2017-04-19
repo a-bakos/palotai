@@ -25,7 +25,7 @@
 + Righteous
 + Baloo Chettan
 
-** For subtitle [archive]:**
+** For subtitle [archive]: **
 
 + Ubuntu
    + Embedding:
