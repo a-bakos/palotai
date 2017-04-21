@@ -2,15 +2,28 @@
 
 ![Test Title](test-title.png)
 
-#### research phase
+##### design phase
 
-Projekt nev otletek:
+---
 
-Palotai Depó      palotai-depo
-Palotai Depot     palotai-depot
+#### Projekt nev otletek:
 
-Palotai Archive   palotai-archive
-Palotai Archív    palotai-archiv
-Palotai Archívum  palotai-archivum
++ Palotai Depó      _(palotai-depo)_ [jo]
++ Palotai Depot     _(palotai-depot)_
++ Palotai Archive   _(palotai-archive)_
++ Palotai Archív    _(palotai-archiv)_
++ Palotai Archívum  _(palotai-archivum)_
++ Palotai Repo      _(palotai-repo)_
 
-Palotai Repo      palotai-repo
+---
+
+#### Palotai online
+
+\# | URL
+-- | ---
+Facebook | https://www.facebook.com/palotai.zsolt
+Facebook Page | https://www.facebook.com/Dj-Palotai-270313520748/
+SoundCloud | https://soundcloud.com/dj-palotai
+MixCloud | https://www.mixcloud.com/palotaizsolt/
+Old MySpace | https://myspace.com/djpalotai
+Web Archive | Utolso mukodokepes web archive mentes: https://web.archive.org/web/20091118023239/http://www.palotai.hu/
