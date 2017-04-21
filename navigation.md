@@ -2,7 +2,8 @@
 
 1. ** Fooldal / Main page ** [static page]
 
-2. ** Info ** [static page]
+2. ** Infok / Info ** [static page]
+   + Kedvenc Lemezek / Favourite records [static page]
    + Kepek / Photos [static page]
    + Munkak / Works [static page]
 
