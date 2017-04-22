@@ -1,4 +1,6 @@
 .main-navigation {
+  @include debug;
+
 	clear: both;
 	display: block;
 	float: left;
@@ -24,6 +26,8 @@
 			}
 
 			li {
+        @include debug;
+
 				&:hover > ul,
 				&.focus > ul {
 					left: 100%;

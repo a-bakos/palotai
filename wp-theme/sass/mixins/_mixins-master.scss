@@ -22,3 +22,12 @@
 @mixin clearfix-after() {
 	clear: both;
 }
+
+// Debug & testing functions
+@mixin debug-outline {
+  outline: 1px solid blue;
+}
+
+@mixin debug {
+  background-color: red;
+}
