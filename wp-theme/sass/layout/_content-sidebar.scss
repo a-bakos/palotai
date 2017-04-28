@@ -22,8 +22,6 @@
 	width: $size__site-main;
 }
 
-// Custom codes from here
-
 .site-header {
   background: rgb(132,115,74);
   border: {
@@ -36,6 +34,31 @@
   text-align: center;
   }
 
+.site-title {
+  font-family: 'Russo One', sans-serif;
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+
+  a {
+    color: rgb(222,206,165);
+    text-decoration: none;
+    text-shadow:
+      2px 2px 0 rgb(132,115,74),
+      3px 3px 0 rgba(222,206,165,0.25);
+    }
+  }
+.site-description {
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  font-size: 2em;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(79,61,26);
+  background: rgba(255,255,255,0.05);
+  text-shadow: 0 0 5px rgba(255,255,255,0.35);
+  }
+
 // Entry
 
 .entry-title {
@@ -46,8 +69,20 @@
   margin-top: 1%;
   }
 
+.content-area {
+  padding: {
+    left: 0.5%;
+    right: 1%;
+    }
+  }
+
 .entry-content {
   margin: 0!important; // Check this later!
+  padding: 1%;
   background: linear-gradient(to bottom, rgb(125,91,49), rgb(227,94,16));
   border: 1px solid rgb(222,206,165);
+  
+  p {
+    font-family: 'Ubuntu', sans-serif;
+    }
   }
