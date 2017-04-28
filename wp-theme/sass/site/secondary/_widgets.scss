@@ -6,3 +6,12 @@
 		max-width: 100%;
 	}
 }
+
+.widget-title {
+  background: rgb(222,206,165);
+  color: black;
+  border: {
+    top: 1px dotted #9c8c63;
+    bottom: 1px dotted #9c8c63;
+  }
+}
