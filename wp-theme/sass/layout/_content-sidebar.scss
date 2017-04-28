@@ -18,3 +18,15 @@
 	clear: both;
 	width: $size__site-main;
 }
+
+// Custom codes from here
+
+.site-branding {
+  text-align: center;
+  }
+
+// Entry
+
+.entry-content {
+  background: linear-gradient(to bottom, rgb(125,91,49), rgb(227,94,16));
+}
