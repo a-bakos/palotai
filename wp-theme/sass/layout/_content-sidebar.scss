@@ -39,27 +39,39 @@
 .site-title {
   font-family: 'Russo One', sans-serif;
   font-size: 3em;
+  line-height: 1.15;
   margin: 0;
   padding: 0;
+  background: linear-gradient(to right, transparent, rgba(132,115,74,0.5), transparent);
 
   a {
+    width: 100%;
+    display: block;
+    background: linear-gradient(to right, transparent, rgba(79,61,26,0.25), transparent);
+    padding: 0 2%;
     color: rgb(222,206,165);
     text-decoration: none;
     text-shadow:
-      2px 2px 0 rgb(132,115,74),
-      3px 3px 0 rgba(222,206,165,0.25);
+      0 0 10px rgba(79,61,26,0.5),
+      1px 1px 0 rgba(79,61,26,1);
+    transition: 0.25s;
+    &:hover {
+      background: rgba(227,94,16,0.75);
+      color: rgb(246,246,244);
+      }
     }
   }
 .site-description {
   margin: 0;
   padding: 0;
-  font-weight: bolder;
-  font-size: 2em;
+  //font-weight: bolder;
+  line-height: 1.25;
+  font-size: 1.5em;
   font-family: 'Ubuntu', sans-serif;
-  color: white; //rgb(79,61,26);
+  color: rgb(246,246,244);
   //background: rgba(255,255,255,0.05);
-  background: rgba(79,61,26,0.25);
-  text-shadow: 0 0 5px rgba(255,255,255,0.35);
+  background: rgba(79,61,26,0.15);
+  text-shadow: 0 0 5px rgba(0,0,0,0.75);
   }
 
 // Entry

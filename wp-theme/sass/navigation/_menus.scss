@@ -4,9 +4,9 @@
 	display: table;
 	width: 100%;
 
-  background: rgba(79,61,26,0.25);
+  background: rgba(79,61,26,0.15);
   font: {
-    size: 1.25em;
+    size: 1.15em;
     family: 'Jura', sans-serif;
     }
   text: {
@@ -51,6 +51,7 @@
         &:hover > ul,
 				&.focus > ul {
 					left: 100%;
+        box-shadow: 0 -5px 0px 0px #e35e10;
 				}
 			}
 
@@ -73,7 +74,7 @@
 
 		li:hover > ul,
 		li.focus > ul {
-			left: 0;
+			left: -1px;
 		}
 	}
 
@@ -88,10 +89,12 @@
     border: {
       top-left-radius: 5px;
       top-right-radius: 5px;
+      top: 1px solid rgba(190,183,172,0.25);
       }
 
     &:hover {
       background: rgb(227,94,16);
+      border-top: 1px solid rgba(190,183,172,0.25);
       }
 
     &:hover > a,
