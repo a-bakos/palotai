@@ -26,8 +26,13 @@
 // Debug & testing functions
 @mixin debug-outline {
   outline: 1px solid blue;
-}
+  }
 
 @mixin debug {
   background-color: red;
-}
+  }
+
+// Transitions
+@mixin transition($duration: $duration) {
+  transition: $duration;
+  }

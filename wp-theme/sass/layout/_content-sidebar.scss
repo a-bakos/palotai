@@ -1,34 +1,38 @@
 .content-area {
-	float: left;
-	margin: 0 (-$size__site-sidebar) 0 0;
-	width: $size__site-main;
-}
+  float: left;
+  margin: 0 (-$size__site-sidebar) 0 0;
+  width: $size__site-main;
+  }
 
 .site-main {
-	margin: 0 $size__site-sidebar 0 0;
-}
+  margin: 0 $size__site-sidebar 0 0;
+  }
 
 .site-content .widget-area {
-	float: right;
-	overflow: hidden;
-	width: $size__site-sidebar;
+  float: right;
+  overflow: hidden;
+  width: $size__site-sidebar;
 
+  background: repeating-linear-gradient(90deg,
+    #9c8c63 2px,
+    #9c8463 6px);
   border: 1px solid rgb(222,206,165);
-  background: repeating-linear-gradient(90deg, #9c8c63 2px, #9c8463 5px);
-}
+  }
 
 .site-footer {
-	clear: both;
-	width: $size__site-main;
-}
+  clear: both;
+  width: $size__site-main;
+  background: green;
+  }
 
 .site-header {
-
   border: {
     bottom: 1px solid rgb(222,206,165);
     }
   box-shadow: 0 1px 0 rgb(79,61,26);
-  background: rgb(132,115,74) url(corsica-crop-h360.jpg) fixed no-repeat center 0;
+  background:
+    rgb(132,115,74)
+    url(corsica-crop-h360.jpg) fixed no-repeat center 0;
   }
 
 .site-branding {
@@ -37,56 +41,58 @@
   }
 
 .site-title {
-  font-family: 'Russo One', sans-serif;
-  font-size: 3em;
-  line-height: 1.15;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, transparent, rgba(132,115,74,0.5), transparent);
+  background: linear-gradient(to right,
+    transparent,
+    rgba(132,115,74,0.5),
+    transparent);
 
   a {
     width: 100%;
     display: block;
-    background: linear-gradient(to right, transparent, rgba(79,61,26,0.25), transparent);
     padding: 0 2%;
-    color: rgb(222,206,165);
-    text-decoration: none;
-    text-shadow:
-      0 0 10px rgba(79,61,26,0.5),
-      1px 1px 0 rgba(79,61,26,1);
-    transition: 0.25s;
+
+    background: linear-gradient(to right,
+      transparent,
+      rgba(79,61,26,0.25),
+      transparent);
+
+    @include transition(0.25s);
+
     &:hover {
       background: rgba(227,94,16,0.75);
-      color: rgb(246,246,244);
       }
     }
   }
+
 .site-description {
   margin: 0;
   padding: 0;
-  //font-weight: bolder;
-  line-height: 1.25;
-  font-size: 1.5em;
-  font-family: 'Ubuntu', sans-serif;
-  color: rgb(246,246,244);
-  //background: rgba(255,255,255,0.05);
+
   background: rgba(79,61,26,0.15);
-  text-shadow: 0 0 5px rgba(0,0,0,0.75);
+  }
+
+.page-header {
+  border-top: 1px dotted rgb(222,206,165);
+  border-bottom: 1px dotted rgb(222,206,165);
+  margin-bottom: 1%;
+
+  > h1 {
+    padding: 0;
+    }
   }
 
 // Entry
 
 .entry-title {
-  font-size: 1.5em;
-  background: transparent; // rgb(222,206,165);
-  color: black;
   margin: 0;
 
-  font-family: 'Jura', sans-serif; //'Ubuntu', sans-serif;
+  background: transparent;
   }
 
 .content-area {
-    margin-top: 0.75%;
+  margin-top: 0.75%;
   padding: {
     left: 0.5%;
     right: 1%;
@@ -96,16 +102,14 @@
 .entry-content {
   margin: 0!important; // Check this later!
   padding: 1%;
-  background: linear-gradient(to bottom, rgb(125,91,49), rgb(227,94,16));
+
+  background: linear-gradient(to bottom,
+    rgb(125,91,49),
+    rgb(227,94,16));
   border: 1px solid rgb(222,206,165);
-  
-  p {
-    font-family: 'Ubuntu', sans-serif;
-    text-shadow: 0 0 2px rgba(0,0,0,0.5);
-    }
   }
 
 .hentry {
   background: rgb(222,206,165);
-  border: 1px solid black;
-}
+  border: 1px solid rgb(32,30,26);
+  }

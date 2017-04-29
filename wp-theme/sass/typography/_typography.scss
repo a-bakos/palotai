@@ -7,7 +7,105 @@ textarea {
 	font-family: $font__main;
 	@include font-size(1);
 	line-height: $font__line-height-body;
-}
+  }
+
+.site-title {
+  font: {
+    family: 'Russo One', sans-serif;
+    size: 3em;
+    }
+  line-height: 75px;
+
+  a {
+    color: rgb(222,206,165);
+    text: {
+      decoration: none;
+      shadow:
+        0 0 10px rgba(79,61,26,0.5),
+        1px 1px 0 rgba(79,61,26,1);
+      }
+
+    &:hover {
+      color: rgb(246,246,244);
+      }
+    
+    &:visited {
+      color: rgb(222,206,165);
+      }
+    }
+  } // .site-title
+
+.site-description {
+  line-height: 1.25;
+  font: {
+    size: 1.5em;
+    family: 'Ubuntu', sans-serif;
+    }
+  text-shadow: 0 0 5px rgba(0,0,0,0.75);
+  color: rgb(246,246,244);
+  }
+
+.main-navigation {
+  font: {
+    size: 1.15em;
+    family: 'Jura', sans-serif;
+    }
+
+  text: {
+    align: center;
+    shadow: 0 0 5px rgba(255,255,255,0.5);
+    }
+  
+  ul {
+    a {
+      color: rgb(32,30,26);
+      text-shadow: 0 0 5px rgba(0,0,0,0.25);
+      }
+
+    :hover > a,
+    .focus > a {
+      color: white;
+      }
+    }
+  
+  li {
+    &:hover > a,
+		&.focus > a {
+      color: white;
+		  }
+    }
+
+  a {
+    color: rgb(32,30,26);
+    text-decoration: none;
+    }
+  } // .main-navigation
+
+.page-header {
+  > h1 {
+    font-family: 'Jura', sans-serif;
+    color: white;//rgb(32,30,26);
+    letter-spacing: 2px;
+    font-size: 1em;
+    line-height: 1;
+    }
+  }
+
+.entry-title {
+  font: {
+    size: 1.25em;
+    family: 'Jura', sans-serif;
+    }
+  color: rgb(32,30,26);
+  text-align: center;
+  }
+
+.entry-content {
+  p {
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
+    }
+  }
 
 @import "headings";
 
