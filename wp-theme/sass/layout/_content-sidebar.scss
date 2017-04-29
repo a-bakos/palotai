@@ -54,22 +54,25 @@
   font-weight: bolder;
   font-size: 2em;
   font-family: 'Ubuntu', sans-serif;
-  color: rgb(79,61,26);
-  background: rgba(255,255,255,0.05);
+  color: white; //rgb(79,61,26);
+  //background: rgba(255,255,255,0.05);
+  background: rgb(79,61,26);
   text-shadow: 0 0 5px rgba(255,255,255,0.35);
   }
 
 // Entry
 
 .entry-title {
-  font-size: 2em;
-  background: rgb(222,206,165);
+  font-size: 1.5em;
+  background: transparent; // rgb(222,206,165);
   color: black;
   margin: 0;
-  margin-top: 1%;
+
+  font-family: 'Jura', sans-serif; //'Ubuntu', sans-serif;
   }
 
 .content-area {
+    margin-top: 0.75%;
   padding: {
     left: 0.5%;
     right: 1%;
@@ -84,5 +87,11 @@
   
   p {
     font-family: 'Ubuntu', sans-serif;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
     }
   }
+
+.hentry {
+  background: rgb(222,206,165);
+  border: 1px solid black;
+}

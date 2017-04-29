@@ -1,10 +1,24 @@
 .widget {
 	margin: 0 0 1.5em;
 
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
 	/* Make sure select elements fit in widgets. */
 	select {
 		max-width: 100%;
 	}
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
 }
 
 .widget-title {
@@ -14,6 +28,9 @@
     top: 1px dotted #9c8c63;
     bottom: 1px dotted #9c8c63;
   }
+  font-family: 'Jura', sans-serif;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .widget-area {
