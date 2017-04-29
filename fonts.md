@@ -37,3 +37,15 @@
    ``` CSS
    font-family: 'Ubuntu', sans-serif;
    ```
+
+** For navigation **
+
++ Jura
+   + Embedding:
+   ``` HTML
+   <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+   ```
+   + CSS:
+   ``` CSS
+   font-family: 'Jura', sans-serif;
+   ```
