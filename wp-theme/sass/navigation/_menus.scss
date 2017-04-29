@@ -1,21 +1,27 @@
 .main-navigation {
 	clear: both;
-	display: block;
-	float: left;
+	float: none;
+	display: table;
 	width: 100%;
 
-font-size: 1.25em;
-font-family: 'Jura', sans-serif; //'Ubuntu', sans-serif;
-font-weight: bolder;
+  background: rgba(79,61,26,0.25);
+  font: {
+    size: 1.25em;
+    family: 'Jura', sans-serif;
+    }
+  text: {
+    align: center;
+    shadow: 0 0 5px rgba(255,255,255,0.5);
+    }
 
-	ul {
-		display: none;
-		list-style: none;
-		margin: 0;
+  ul {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
     padding: 0;
+    list-style: none;
 
 		ul {
-			//box-shadow: 0 3px 3px rgba(79,61,26,0.5);
 			float: left;
 			position: absolute;
 			top: 1.5em;
@@ -28,8 +34,20 @@ font-weight: bolder;
 			}
 
 			li {
-          background: rgb(159,138,101); //rgb(79,61,26);
-        
+        background: #ECE3CC;
+        border-radius: 0;
+
+        &:first-child {
+          border-top-right-radius: 5px;
+          }
+        &:last-child {
+          border: {
+            bottom-left-radius: 5px;
+            bottom-right-radius: 5px;
+            bottom: 1px solid rgb(79,61,26);
+            }
+          }
+
         &:hover > ul,
 				&.focus > ul {
 					left: 100%;
@@ -37,15 +55,16 @@ font-weight: bolder;
 			}
 
 			a {
-        color: rgb(32,30,26);
         display: block;
 				width: 200px;
-			}
+        color: rgb(32,30,26);
+        text-shadow: 0 0 5px rgba(0,0,0,0.25);
+        }
 
 			:hover > a,
 			.focus > a {
         color: white;
-			}
+        }
 
 			a:hover,
 			a.focus {
@@ -54,31 +73,36 @@ font-weight: bolder;
 
 		li:hover > ul,
 		li.focus > ul {
-			left: auto;
+			left: 0;
 		}
 	}
 
 	li {
-		float: left;
+		float: none;
 		position: relative;
-
+    display: inline-table;
     padding: 0 1%;
     margin: 0 0.5%;
+    
     background: rgb(222,206,165);
+    border: {
+      top-left-radius: 5px;
+      top-right-radius: 5px;
+      }
 
     &:hover {
-      background: rgb(79,61,26);
-    }
+      background: rgb(227,94,16);
+      }
 
     &:hover > a,
 		&.focus > a {
-          color: white;
-		}
+      color: white;
+		  }
 	}
 
 	a {
-    color: rgb(32,30,26);
 		display: block;
+    color: rgb(32,30,26);
 		text-decoration: none;
 	}
 
@@ -100,7 +124,7 @@ font-weight: bolder;
 		display: none;
 	}
 	.main-navigation ul {
-		display: block;
+		display: table;
 	}
 }
 
