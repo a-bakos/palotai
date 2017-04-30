@@ -1,19 +1,8 @@
 # Palotai Depó _(archívum)_
 
-![Test Title](test-title.png)
+![Test Title](web-header.png)
 
-##### design phase
-
----
-
-#### Projekt nev otletek:
-
-+ Palotai Depó      _(palotai-depo)_ [jo]
-+ Palotai Depot     _(palotai-depot)_
-+ Palotai Archive   _(palotai-archive)_
-+ Palotai Archív    _(palotai-archiv)_
-+ Palotai Archívum  _(palotai-archivum)_
-+ Palotai Repo      _(palotai-repo)_
+##### design + development phase
 
 ---
 

@@ -26,7 +26,7 @@ textarea {
 
 select {
 	border: 1px solid $color__border-input;
-}
+  }
 
 textarea {
 	width: 100%;
@@ -36,27 +36,39 @@ textarea {
   margin: 0;
   padding: 0;
   text-align: center;
-  //background: green;
   
   .search-form {
     padding: 2%;
     margin: 0;
-    //b//ackground: red;
     }
 
   .search-field {
     width: 100%;
-    background: $white-fresh;
-    border: 1px solid $white;
+    padding: 1%;
+
+    background: $white;
+    border: 3px solid $cream-light;
+    border: {
+      top-left-radius: 5px;
+      top-right-radius: 5px;
     }
-  
-  label {
-    color: blue;
+
+    color: $orange-bright;// $black;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-family: 'Jura', sans-serif;
+    font-weight: bolder;
+    text-shadow: 0 0 5px rgba(0,0,0,0.15);
+    text-align: center;
     }
   
   .search-submit {
     width: 100%;
-    background: $brown-deep;
-    border: 1px solid $white-fresh;
+    background: $cream-light;
+    border: 3px solid $cream-light;
+    border: {
+      bottom-left-radius: 5px;
+      bottom-right-radius: 5px;
+      }
     }
   }

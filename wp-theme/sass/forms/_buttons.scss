@@ -12,28 +12,37 @@ input[type="reset"] {
 
 	&:hover {
 		border-color: $color__border-button-hover;
-	}
+    }
 
 	&:active,
 	&:focus {
 		border-color: $color__border-button-focus;
-	}
-}
+    }
+  }
 
 input[type="submit"] {
-	line-height: 1;
-	padding: .6em 1em .4em;
-	@include font-size(0.75);
+	padding: 1%;
+	@include font-size(1.2);
   @include transition(0.15s);
 
+	line-height: 1;
+  //text-shadow: 0 0 5px $black;
+  color: $brown-deep;//$orange-mid;
+  font-weight: bold;
+  font-family: 'Jura', sans-serif;
+  letter-spacing: 2px;
+
+
 	&:hover {
-    background: red;
-		border-color: $color__border-button-hover;
-	}
+    color: white;
+    background: $brown-mid;
+		border-color: $brown-mid;
+	 }
 
 	&:active,
 	&:focus {
-    background: green;
+    background: $cream-deep;
 		border-color: $color__border-button-focus;
-	}
-}
+    outline: none;
+    }
+  }

@@ -1,3 +1,10 @@
+.site-content {
+  @media screen and (min-width: 1280px) {
+    width: 70%;
+    margin: auto;
+  }
+}
+
 .content-area {
   float: left;
   margin: 0 (-$size__site-sidebar) 0 0;
@@ -22,7 +29,22 @@
 .site-footer {
   clear: both;
   width: $size__site-main;
-  background: green;
+  padding: 1%;
+  text-align: center;
+  color: $white;
+  background: rgba(0,0,0,0.05);
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  font-family: 'Jura', sans-serif;
+  font-size: 1.15em;
+  
+  a {
+    padding: 0.25% 0.5%;
+    color: $white-fresh;
+    text-decoration: none;
+    &:hover {
+      background: $orange-bright;
+      }
+    }
   }
 
 .site-header {
@@ -84,7 +106,11 @@
   }
 
 .title-highlight {
-  padding: 0.75%;
+  margin: {
+    top: 0.1%;
+    bottom: 0.1%;
+    }
+  padding: 0.5%;
   background: $orange-bright;
   }
 
@@ -92,7 +118,7 @@
 
 .entry-title {
   margin: 0;
-
+  padding-left: 2%;
   background: transparent;
   }
 
@@ -111,7 +137,7 @@
 
 .entry-content {
   margin: 0!important; // Check this later!
-  padding: 1%;
+  padding: 1% 2%;;
 
   background: linear-gradient(to bottom,
     rgb(125,91,49),
@@ -123,3 +149,4 @@
   background: rgb(222,206,165);
   border: 1px solid rgb(32,30,26);
   }
+

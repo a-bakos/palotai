@@ -15,9 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'palotai-depo' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'palotai-depo' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'palotai-depo' ), 'palotai-depo', '<a href="https://automattic.com/" rel="designer">abakos</a>' ); ?>
+			<p>Palotai Depó, 2017 | <a href="https://github.com/a-bakos/palotai" target="_blank" alt="Palotai Depó a GutHub-on" title="">GitHub</a> | created by <a href="http://abakos.info" target="_blank" alt="abakos.info" title="abakos.info">abakos</a></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

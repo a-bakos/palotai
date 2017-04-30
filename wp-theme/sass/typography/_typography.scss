@@ -84,7 +84,7 @@ textarea {
 .page-header {
   > h1 {
     font-family: 'Jura', sans-serif;
-    color: white;//rgb(32,30,26);
+    color: $white;
     letter-spacing: 2px;
     font-size: 1em;
     line-height: 1;
@@ -101,13 +101,49 @@ textarea {
     family: 'Jura', sans-serif;
     }
   color: rgb(32,30,26);
-  text-align: center;
+    //text-align: center;
+    text-shadow: 0 0 5px rgba(0,0,0,0.15);
+  letter-spacing: 2px;
+
+  > a {
+    display: block;
+    text-decoration: none;
+    color: $black;
+
+    &:visited {
+      color: $grey-deep;
+      }
+
+    &:hover {
+      color: $orange-bright;
+      }
+    }
   }
 
 .entry-content {
   p {
     font-family: 'Ubuntu', sans-serif;
     text-shadow: 0 0 2px rgba(0,0,0,0.5);
+    }
+
+  .more-link {
+    color: $grey-deep;
+    background: $white;
+    border-radius: 5px;
+    padding: 0.25% 1%;
+    font-size: 1.15em;
+    font-weight: bolder;
+    font-family: 'Jura',sans-serif;
+    text-shadow: none;
+    text-decoration: none;
+      text-shadow: 0 0 5px rgba(0,0,0,0.15);
+    @include transition(0.15s);
+      box-shadow: 0 0 5px rgba(0,0,0,0.25);
+    
+    &:hover {
+      color: $white;
+      background: $orange-light;//cream-deep;
+    }
     }
   }
 

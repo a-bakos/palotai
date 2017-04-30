@@ -104,6 +104,27 @@
 	}
 }
 
+.post-navigation {
+  padding: 1%;
+  font-size: 1.25em;
+  font-family: 'Jura', sans-serif;
+  background: $cream-mid;
+  a {
+    margin: auto;
+    text-shadow: 0 0 5px rba(0,0,0,0.5);
+  text-decoration: none;
+    text-align: center;
+    width: 98%;
+    background: $cream-deep;
+    display: block;
+    color: white;
+    
+    &:hover {
+      background: $orange-mid;
+    }
+    }
+  }
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
