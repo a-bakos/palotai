@@ -2,7 +2,7 @@ input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="password"],
-input[type="search"],
+//input[type="search"],
 input[type="number"],
 input[type="tel"],
 input[type="range"],
@@ -30,4 +30,33 @@ select {
 
 textarea {
 	width: 100%;
-}
+  }
+
+.widget_search {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  //background: green;
+  
+  .search-form {
+    padding: 2%;
+    margin: 0;
+    //b//ackground: red;
+    }
+
+  .search-field {
+    width: 100%;
+    background: $white-fresh;
+    border: 1px solid $white;
+    }
+  
+  label {
+    color: blue;
+    }
+  
+  .search-submit {
+    width: 100%;
+    background: $brown-deep;
+    border: 1px solid $white-fresh;
+    }
+  }

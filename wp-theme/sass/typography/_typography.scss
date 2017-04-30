@@ -17,7 +17,7 @@ textarea {
   line-height: 75px;
 
   a {
-    color: rgb(222,206,165);
+    color: $cream-light;
     text: {
       decoration: none;
       shadow:
@@ -26,11 +26,11 @@ textarea {
       }
 
     &:hover {
-      color: rgb(246,246,244);
+      color: $white-fresh;
       }
     
     &:visited {
-      color: rgb(222,206,165);
+      color: $cream-light;
       }
     }
   } // .site-title
@@ -42,7 +42,7 @@ textarea {
     family: 'Ubuntu', sans-serif;
     }
   text-shadow: 0 0 5px rgba(0,0,0,0.75);
-  color: rgb(246,246,244);
+  color: $white-fresh;
   }
 
 .main-navigation {
@@ -89,6 +89,10 @@ textarea {
     font-size: 1em;
     line-height: 1;
     }
+  }
+
+.title-highlight {
+  text-shadow: 0 0 5px $black;
   }
 
 .entry-title {

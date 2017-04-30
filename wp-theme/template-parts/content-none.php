@@ -28,9 +28,9 @@
 
 		else : ?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'palotai-depo' ); ?></p>
+			<p><?php esc_html_e( '', 'palotai-depo' ); ?></p>
 			<?php
-				get_search_form();
+				//get_search_form();
 
 		endif; ?>
 	</div><!-- .page-content -->
