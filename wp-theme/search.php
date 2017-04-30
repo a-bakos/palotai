@@ -16,7 +16,7 @@ get_header(); ?>
 		if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'palotai-depo' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				<h1 class="page-title "><span class="title-highlight">Keresési eredmények:</span><?php printf( esc_html__( ' %s', 'palotai-depo' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<?php
