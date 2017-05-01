@@ -2,8 +2,8 @@
   @media screen and (min-width: 1280px) {
     width: 70%;
     margin: auto;
+    }
   }
-}
 
 .content-area {
   float: left;
@@ -20,7 +20,8 @@
   overflow: hidden;
   width: $size__site-sidebar;
 
-  background: repeating-linear-gradient(90deg,
+  background: repeating-linear-gradient(
+    90deg,
     #9c8c63 2px,
     #9c8463 6px);
   border: 1px solid rgb(222,206,165);
@@ -30,17 +31,24 @@
   clear: both;
   width: $size__site-main;
   padding: 1%;
-  text-align: center;
-  color: $white;
   background: rgba(0,0,0,0.05);
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
-  font-family: 'Jura', sans-serif;
-  font-size: 1.15em;
+
+  color: $white;
+  text: {
+    align: center;
+    shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+  font: {
+    family: 'Jura', sans-serif;
+    size: 1.15em;
+    }
   
   a {
     padding: 0.25% 0.5%;
+
     color: $white-fresh;
     text-decoration: none;
+
     &:hover {
       background: $orange-bright;
       }
@@ -65,7 +73,8 @@
 .site-title {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right,
+  background: linear-gradient(
+    to right,
     transparent,
     rgba(132,115,74,0.5),
     transparent);
@@ -75,7 +84,8 @@
     display: block;
     padding: 0 2%;
 
-    background: linear-gradient(to right,
+    background: linear-gradient(
+      to right,
       transparent,
       rgba(79,61,26,0.25),
       transparent);
@@ -96,8 +106,10 @@
   }
 
 .page-header {
-  border-top: 1px dotted rgb(222,206,165);
-  border-bottom: 1px dotted rgb(222,206,165);
+  border: {
+    top: 1px dotted rgb(222,206,165);
+    bottom: 1px dotted rgb(222,206,165);
+    }
   margin-bottom: 1%;
 
   > h1 {
@@ -139,7 +151,8 @@
   margin: 0!important; // Check this later!
   padding: 1% 2%;;
 
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+    to bottom,
     rgb(125,91,49),
     rgb(227,94,16));
   border: 1px solid rgb(222,206,165);
@@ -150,3 +163,29 @@
   border: 1px solid rgb(32,30,26);
   }
 
+.text-highlight {
+  font-size: 0.85em;
+  padding: 0.65% 1%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.25);
+  }
+.hi-lite-title {
+  color: $black;
+  background: $cream-light;
+  }
+.hi-lite-content {
+  background: $cream-light;
+  color: $white;
+  }
+.hi-lite-no {
+  background: #B01515;
+}
+.hi-lite-yes {
+  background: #3F9928;
+}
+
+.letoltes {
+  text-decoration: none;
+  color: $black;
+}
