@@ -32,7 +32,7 @@ b)
 
 **3. Mix.** `a opció`, ha van; `b opció`, ha nincs
 
-a)
+a) Ha van elérhető mix, akkor írjuk be a hosszát, a mintavételt és a méretét a fájlnak.
 
 ``` HTML
 <p><span class="text-highlight hi-lite-title">Mix:</span> <span class="text-highlight hi-lite-content hi-lite-yes">van</span></p>
