@@ -22,10 +22,11 @@ blockquote, q {
 }
 
 hr {
-	background-color: $color__background-hr;
-	border: 0;
+	background-color: transparent;
+  border: 0;
+	border-bottom: 1px dotted $orange-light;
 	height: 1px;
-	margin-bottom: 1.5em;
+	margin: 0.25%;
 }
 
 @import "lists";

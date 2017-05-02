@@ -62,7 +62,7 @@
   box-shadow: 0 1px 0 rgb(79,61,26);
   background:
     rgb(132,115,74)
-    url(corsica-crop-h360.jpg) fixed no-repeat center 0;
+    url(./images/corsica-crop-h360.jpg) fixed no-repeat center 0;
   }
 
 .site-branding {
@@ -156,6 +156,7 @@
     rgb(125,91,49),
     rgb(227,94,16));
   border: 1px solid rgb(222,206,165);
+  
   }
 
 .hentry {
@@ -163,10 +164,14 @@
   border: 1px solid rgb(32,30,26);
   }
 
+.entry-header-info {
+  margin: 0.75%;
+}
+
 .text-highlight {
-  font-size: 0.85em;
-  padding: 0.65% 1%;
-  margin-bottom: 1%;
+  font-size: 0.9em;
+  //font-weight: bolder;
+  padding: 0.2% 1%;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0,0,0,0.25);
   }
