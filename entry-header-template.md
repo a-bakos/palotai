@@ -82,7 +82,7 @@ b) Ha nincs letölthető mix, ne jelenítsük meg feleslegesen a hossz és letö
 
 **4. Fejléc záró**
 
-Választóvonal és tracklist fejléc. Ezután következik maga a tracklist.
+Választóvonal, tovább gomb és tracklist fejléc. Ezután következik maga a tracklist.
 
 ``` HTML
 <hr />
@@ -114,8 +114,11 @@ Választóvonal és tracklist fejléc. Ezután következik maga a tracklist.
 
 <hr />
 
+<!--more-->
+
 <p><span class="text-highlight hi-lite-title">Tracklist:</span></p>
 ```
-#### Így jelenik meg:
+
+#### Így jelenik meg a tovább kattintás után:
 
 ![Bejegyzés hozzáadás - fejléc példa](bejegyzes-hozzaadas-fejlec-pelda.png)
