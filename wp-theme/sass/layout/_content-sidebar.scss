@@ -156,7 +156,6 @@
     rgb(125,91,49),
     rgb(227,94,16));
   border: 1px solid rgb(222,206,165);
-  
   }
 
 .hentry {
@@ -169,28 +168,37 @@
 }
 
 .text-highlight {
-  font-size: 0.9em;
-  //font-weight: bolder;
   padding: 0.2% 1%;
   border-radius: 5px;
+  background: rgba(255,255,255,0.1);
   box-shadow: 0 0 5px rgba(0,0,0,0.25);
   }
+
 .hi-lite-title {
-  color: $black;
   background: $cream-light;
   }
+
 .hi-lite-content {
   background: $cream-light;
-  color: $white;
   }
+
 .hi-lite-no {
   background: #B01515;
 }
+
 .hi-lite-yes {
   background: #3F9928;
 }
 
-.letoltes {
-  text-decoration: none;
-  color: $black;
-}
+.text-mono {
+  padding: {
+    left: 1%;
+    right: 1%;
+    }
+  background: rgba(255,255,255,0.05);
+  }
+
+.text-question {
+  padding: 0.25% 1%;
+  background: rgba(255,255,255,0.1);
+  }

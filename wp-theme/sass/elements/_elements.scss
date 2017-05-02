@@ -19,6 +19,11 @@ blockquote, q {
 	&:after {
 		content: "";
 	}
+
+  border-left: 15px solid $orange-bright;
+  border-radius: 5px;
+  padding: 0.25% 1%;
+  background: linear-gradient(to right, rgba(255,255,255,0.1) 75%, transparent);
 }
 
 hr {

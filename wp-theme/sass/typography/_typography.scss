@@ -3,6 +3,11 @@ h3 {
   letter-spacing: 2px;
 }
 
+blockquote {
+  font-size: 1.5em;
+  font-family: 'Jura', sans-serif;
+  }
+
 body,
 button,
 input,
@@ -96,8 +101,46 @@ textarea {
     }
   }
 
+.text-highlight {
+  font-size: 0.9em;
+  }
+
 .title-highlight {
   text-shadow: 0 0 5px $black;
+  }
+
+.hi-lite-title { color: $black; }
+
+.hi-lite-content { color: $white; }
+
+.text-mono {
+  font-family: monospace;
+  color: $grey-light;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  }
+
+.text-midsize { font-size: 1.25em; }
+
+.text-cream { color: $cream-lightest; }
+
+.text-question {
+  color: $cream-lightest;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  }
+
+.text-pzs {
+  background: $orange-bright;
+  font-family: monospace;
+  color: $black;
+  box-shadow: 0 0 5px rgba(0,0,0,0.35);
+  border-radius: 3px;
+  padding: 0 0.25%;
+  margin-right: 0.5%;
+  }
+
+.letoltes {
+  text-decoration: none;
+  color: $black;
   }
 
 .entry-title {
