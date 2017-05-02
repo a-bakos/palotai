@@ -127,3 +127,47 @@ Választóvonal, tovább gomb és tracklist fejléc. Ezután következik maga a 
 #### Így jelenik meg a tovább kattintás után:
 
 ![Bejegyzés hozzáadás - fejléc példa](bejegyzes-hozzaadas-fejlec-pelda.png)
+
+---
+
+### Tracklist szerkezet
+
+A tracklist következő felépítése elsősorban az esztétikai élmény és az olvashatóság miatt érdekes, de teljesen megfelelő az is, ha csak szimplán beillesztjük a listát a fenti fejléc után.
+
+A tracklist-ben előforduló elemeket, azaz zenéket **általában** maximum 4 részre tudjuk osztani: sorszám, előadó + zene címe, remix (vagy zárójeles) megnevezés (ha van), kiadvány katalógus száma (ha van).
+
++ A sorszámot tegyük `<span>` tag-be és adjunk neki `text-highlight` class-ot.
+``` HTML
+<span class="text-highlight">25.</span>
+```
+
++ Előadó + a zene szám címe marad natúr. Jobban olvasható lesz a lista, ha csak a kezdőbetűket írjuk naggyal.
+``` HTML
+Klute / Phone Call
+```
+
++ A remix vagy zárójeles megnevezést tegyük `<span>` tag-be és kapjon `text-cream` class-t.
+``` HTML
+<span class="text-cream">(Matrix Remix)</span>
+```
+
++ A kiadvány katalógus száma szintén `<span>`-be kerül és `text-mono` class-t kap.
+``` HTML
+<span class="text-mono">CERT 18 043</span>
+```
+
+#### Példa:
+
+``` HTML
+<span class="text-highlight">24.</span> Ram Jam World / Bluesy Baby <span class="text-cream">(Ed Rush & Optical Remix)</span> - <span class="text-mono">F-111</span>
+
+<span class="text-highlight">25.</span> Klute / Phone Call <span class="text-cream">(Matrix Remix)</span> - <span class="text-mono">CERT 18 043</span>
+
+<span class="text-highlight">26.</span> Crackpot / Tippy Tippy Toe - <span class="text-mono">TUCH 042</span>
+
+<span class="text-highlight">27.</span> Dj Food featuring Ken Nordine / The Ageing Young Rebel <span class="text-cream">(Gentle Cruelty)</span> - <span class="text-mono">ZEN LP 049</span>
+```
+
+#### Így jelenik meg:
+
+![Bejegyzés hozzáadás - tracklist](bejegyzes-hozzaadas-tracklist.png)
