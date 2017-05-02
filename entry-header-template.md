@@ -85,6 +85,8 @@ b) Ha nincs letölthető mix, ne jelenítsük meg feleslegesen a hossz és letö
 Választóvonal, tovább gomb és tracklist fejléc. Ezután következik maga a tracklist.
 
 ``` HTML
+</p>
+
 <hr />
 
 <!--more-->
@@ -103,7 +105,7 @@ Választóvonal, tovább gomb és tracklist fejléc. Ezután következik maga a 
 
 <hr />
 
-<p class="entry-header-info>
+<p class="entry-header-info">
 <span class="text-highlight hi-lite-title">Tracklist:</span> <span class="text-highlight hi-lite-content hi-lite-yes">van &#10003;</span>
 
 <span class="text-highlight hi-lite-title">Mix:</span> <span class="text-highlight hi-lite-content hi-lite-yes">van &#10003;</span>
@@ -111,6 +113,7 @@ Választóvonal, tovább gomb és tracklist fejléc. Ezután következik maga a 
 <span class="text-highlight hi-lite-title">Hossz:</span> <span class="text-highlight hi-lite-content hi-lite-yes">103:18</span>
 
 <span class="text-highlight hi-lite-title">Letöltés:</span> <a class="letoltes" href=""><span class="text-highlight hi-lite-content hi-lite-yes">160kbps MP3 / 118MB &#8628;</span></a>
+</p>
 
 <hr />
 
