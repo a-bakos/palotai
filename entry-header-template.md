@@ -182,7 +182,7 @@ Az interjú szerkezete függ az eredeti interjútól, így ha nincs rá mód, ak
 
 A legelső sorban a címet `H3` tag-gel írjuk.
 
-Ha van idézet a cikk elején, vagy bárhol az írásban, azt `blcokquote` blokkba tegyük.
+Ha van idézet a cikk elején, vagy bárhol az írásban, azt `blockquote` blokkba tegyük.
 
 A rövid, cikk összefoglaló bekezdést tegyük `span` tag-ek közé, és adjunk neki `text-cream` és `text-midsize` class-okat.
 
