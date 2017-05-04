@@ -171,3 +171,28 @@ Klute / Phone Call
 #### Így jelenik meg:
 
 ![Bejegyzés hozzáadás - tracklist](bejegyzes-hozzaadas-tracklist.png)
+
+---
+
+### Interjú bejegyzések
+
+Az interjúkat értelemszerűen tartalmi változtatás nélkül közöljük minden esetben, amennyiben lehetséges minden forrással ellátva.
+
+Az interjú szerkezete függ az eredeti interjútól, így ha nincs rá mód, akkor ne változtassunk semmin. Amennyiben van mód némi formázásra, akkor a következő szabályokat próbáljuk alkalmazni.
+
+A legelső sorban a címet `H3` tag-gel írjuk.
+
+Ha van idézet a cikk elején, vagy bárhol az írásban, azt `blcokquote` blokkba tegyük.
+
+A rövid, cikk összefoglaló bekezdést tegyük `span` tag-ek közé, és adjunk neki `text-cream` és `text-midsize` class-okat.
+
+Az interjúztató, kérdező, riporter sorait tegyük `span`-ba `text-question` class hozzáadásával a jobb olvashatóság végett.
+
+Palotai válaszai előtt (opcionálisan) megjeleníthető egy `P:`, vagy `P.Zs.:` jelzés `span` tag-ek között `text-pzs` class-szal ellátva. Esetlegesen, a legelső válasznál írjuk ki a teljes nevét.
+
+#### Így jelenik meg:
+
+![Bejegyzés hozzáadás - interjú](bejegyzes-hozzaadas-interju.png)
+
+---
+
