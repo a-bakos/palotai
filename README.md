@@ -2,7 +2,7 @@
 
 ![Test Title](web-header.png)
 
-##### design + development phase
+##### fázis: design + fejlesztés + tartalomfeltöltés
 
 ---
 

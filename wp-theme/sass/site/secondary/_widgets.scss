@@ -67,3 +67,17 @@
     }
   width: 24.5%!important;
   }
+
+.widget_categories {
+  ul {
+    li {
+      font-family: monospace;
+
+      a {
+        display: inline-block;
+        padding: 0 1.5%;
+        font-family: 'Ubuntu', sans-serif;
+        }
+      }
+    }
+  }

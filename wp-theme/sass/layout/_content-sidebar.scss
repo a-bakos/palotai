@@ -33,21 +33,8 @@
   padding: 1%;
   background: rgba(0,0,0,0.05);
 
-  color: $white;
-  text: {
-    align: center;
-    shadow: 0 0 5px rgba(0,0,0,0.5);
-    }
-  font: {
-    family: 'Jura', sans-serif;
-    size: 1.15em;
-    }
-  
   a {
     padding: 0.25% 0.5%;
-
-    color: $white-fresh;
-    text-decoration: none;
 
     &:hover {
       background: $orange-bright;
@@ -67,7 +54,6 @@
 
 .site-branding {
   height: 250px;
-  text-align: center;
   }
 
 .site-title {
@@ -101,7 +87,6 @@
 .site-description {
   margin: 0;
   padding: 0;
-
   background: rgba(79,61,26,0.15);
   }
 
@@ -136,7 +121,18 @@
 
 .entry-summary {
   margin: 0;
-  color: $black;
+  padding: 0 1%;
+
+  p {
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+    padding: 1%;
+
+    border: 1px dotted $orange-mid;
+    border-radius: 5px;
+    background: $white-fresh;
+    }
   }
 
 .content-area {
@@ -149,13 +145,27 @@
 
 .entry-content {
   margin: 0!important; // Check this later!
-  padding: 1% 2%;;
+  padding: 1% 2%;
 
   background: linear-gradient(
     to bottom,
     rgb(125,91,49),
     rgb(227,94,16));
   border: 1px solid rgb(222,206,165);
+
+  a:not(.letoltes) {
+    width: 100%;
+    padding: 0.25% 1%;
+
+    background: rgba(255,255,255,0.25);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    @include transition(0.25s);
+
+    &:hover {
+      background: $white;
+      }
+    }
   }
 
 .hentry {
@@ -163,9 +173,7 @@
   border: 1px solid rgb(32,30,26);
   }
 
-.entry-header-info {
-  margin: 0.75%;
-}
+.entry-header-info { margin: 0.75%; }
 
 .text-highlight {
   padding: 0.2% 1%;
@@ -174,21 +182,13 @@
   box-shadow: 0 0 5px rgba(0,0,0,0.25);
   }
 
-.hi-lite-title {
-  background: $cream-light;
-  }
+.hi-lite-title { background: $cream-light; }
 
-.hi-lite-content {
-  background: $cream-light;
-  }
+.hi-lite-content { background: $cream-light; }
 
-.hi-lite-no {
-  background: #B01515;
-}
+.hi-lite-no { background: #B01515; }
 
-.hi-lite-yes {
-  background: #3F9928;
-}
+.hi-lite-yes { background: #3F9928; }
 
 .text-mono {
   padding: {
