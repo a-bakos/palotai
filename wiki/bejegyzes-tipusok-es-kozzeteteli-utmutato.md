@@ -5,7 +5,7 @@
 
 + [Címsor és közvetlen hivatkozás](#cimsor-link)
 	+ [Példa a mixek bejegyzéseihez](#cimsor-link_pelda-mix)
-	+ Példa a további bejegyzéstípusokhoz(##cimsor-link_pelda-altalanos)
+	+ [Példa a további bejegyzéstípusokhoz](#cimsor-link_pelda-altalanos)
 + [Bejegyzések dátumozása](#datum)
 	+ [Példa](#datum_pelda)
 	+ [Dátumozás intervallum esetén](#datum-intervallum)
@@ -26,13 +26,13 @@ ___
 <a id="cimsor-link"></a>
 ## Címsor és közvetlen hivatkozás
 
-![Bejegyzés hozzáadás - címek](bejegyzes-hozzaadas-cimek.png)
+![Bejegyzés hozzáadás - címek](img/bejegyzes-hozzaadas-cimek.png)
 
 Címsorban legelső elem a `[TAG]`, ami meghatározza a bejegyzés tartalmát. Ez a `[TAG]` lehet `[MIX]`, `[INTERJÚ]`, `[KEDVENC LEMEZEK]`. Írjuk őket nagybetűvel, szögletes zárójelek közé téve.
 
 Erre azért van szükség, hogy az oldalsávban megjelenő legutóbbi bejegyzések lista eseményei könnyebben áttekinthetőek legyenek:
 
-![Bejegyzés hozzáadás - legutóbbi bejegyzések](bejegyzes-hozzaadas-legutobbiak.png)
+![Bejegyzés hozzáadás - legutóbbi bejegyzések](img/bejegyzes-hozzaadas-legutobbiak.png)
 
 A második elem a címsorban a bejegyzés címe. Ha dátumot tartalmaz, akkor az kerül előre, úgy mint: `2000-18-28 Jövőzene`. Legyen szépen prezentálva, figyeljünk a nagy kezdőbetűre.
 
@@ -68,7 +68,7 @@ felsorolásban a WordPress-ben.
 
 A `Jövőzene 2000/09/23` mix bejegyzésnél a következő beállítást alkalmazzuk:
 
-![Bejegyzés hozzáadás - dátumozás](bejegyzes-hozzaadas-datum.png)
+![Bejegyzés hozzáadás - dátumozás](img/bejegyzes-hozzaadas-datum.png)
 
 <a id="datum-intervallum"></a>
 ### Dátumozás intervallum esetén
@@ -199,7 +199,7 @@ Választóvonal, tovább gomb és tracklist fejléc. Ezután következik maga a 
 <a id="bejegyzes-mix-fejlec_felepites-pelda-megjelenes"></a>
 ##### Így jelenik meg a tovább kattintás után
 
-![Bejegyzés hozzáadás - fejléc példa](bejegyzes-hozzaadas-fejlec-pelda.png)
+![Bejegyzés hozzáadás - fejléc példa](img/bejegyzes-hozzaadas-fejlec-pelda.png)
 
 _[(Ugrás a tartalomjegyzékhez)](#tartalom)_
 
@@ -248,7 +248,7 @@ Klute / Phone Call
 <a id="bejegyzes-mix-tracklist_pelda-megjelenes"></a>
 ##### Így jelenik meg
 
-![Bejegyzés hozzáadás - tracklist](bejegyzes-hozzaadas-tracklist.png)
+![Bejegyzés hozzáadás - tracklist](img/bejegyzes-hozzaadas-tracklist.png)
 
 _[(Ugrás a tartalomjegyzékhez)](#tartalom)_
 
@@ -274,7 +274,7 @@ Palotai válaszai előtt (opcionálisan) megjeleníthető egy `P:`, vagy `P.Zs.:
 <a id="bejegyzes-interju-megjelenes"></a>
 ##### Így jelenik meg
 
-![Bejegyzés hozzáadás - interjú](bejegyzes-hozzaadas-interju.png)
+![Bejegyzés hozzáadás - interjú](img/bejegyzes-hozzaadas-interju.png)
 
 _[(Ugrás a tartalomjegyzékhez)](#tartalom)_
 

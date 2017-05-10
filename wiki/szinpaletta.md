@@ -1,7 +1,7 @@
 ## Színpaletta
 
 #### A régi weblapon használt színek kiegeszítve újakkal
-![Color palette](color-palette.png)
+![Color palette](img/color-palette.png)
 
 HEX | RGB | name
 --: | :-- | ----
