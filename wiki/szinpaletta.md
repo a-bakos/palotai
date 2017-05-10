@@ -1,5 +1,6 @@
-## Color palette
-#### Used on the old website
+## Színpaletta
+
+#### A régi weblapon használt színek kiegeszítve újakkal
 ![Color palette](color-palette.png)
 
 HEX | RGB | name
@@ -18,9 +19,4 @@ HEX | RGB | name
 `#808081` | `rgb(128,128,129)` | grey-mid
 `#52514f` | `rgb(82,81,79)`    | grey-deep
 `#201e1a` | `rgb(32,30,26)`    | black
-
-### New colors
-
-HEX | RGB | name
---: | :-- | ----
-`#ece3cc` | `rgb(236,227,204)` | white
+`#ece3cc` | `rgb(236,227,204)` | white-fresh

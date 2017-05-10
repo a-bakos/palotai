@@ -1,50 +1,96 @@
-# Bejegyzés közzététel
+# Bejegyzések - _típusok és közzétételi útmutató_
 
----
+<a id="tartalom"></a>
+## Tartalom
+
++ [Címsor és közvetlen hivatkozás](#cimsor-link)
+	+ [Példa a mixek bejegyzéseihez](#cimsor-link_pelda-mix)
+	+ Példa a további bejegyzéstípusokhoz(##cimsor-link_pelda-altalanos)
++ [Bejegyzések dátumozása](#datum)
+	+ [Példa](#datum_pelda)
+	+ [Dátumozás intervallum esetén](#datum-intervallum)
+		+ [Példa](#datum-intervallum_pelda)
++ [Bejegyzés fejléc-szerkezet a mixek számára](#bejegyzes-mix-fejlec)
+	+ [Felépítés](#bejegyzes-mix-fejlec_felepites)
+	+ [Példa-fejléc elérhető tracklist-tel és letölthető mix-szel](#bejegyzes-mix-fejlec_felepites-pelda)
+		+ [Szerkezet](#bejegyzes-mix-fejlec_felepites-pelda-szerkezet)
+		+ [Így jelenik meg](#bejegyzes-mix-fejlec_felepites-pelda-megjelenes)
++ [Tracklist szerkezet](#bejegyzes-mix-tracklist)
+	+  [Példa](#bejegyzes-mix-tracklist_pelda)
+		+ [Így jelenik meg](#bejegyzes-mix-tracklist_pelda-megjelenes)
++ [Interjú bejegyzések](#bejegyzes-interju)
+	+ [Így jelenik meg](#bejegyzes-interju-megjelenes)
+
+___
+
+<a id="cimsor-link"></a>
+## Címsor és közvetlen hivatkozás
 
 ![Bejegyzés hozzáadás - címek](bejegyzes-hozzaadas-cimek.png)
 
-Címsorban legelső elem a `[TAG]`, ami meghatározza a bejegyzés tartalmát. Ez a `[TAG]` lehet `[MIX]`, `[INTERJÚ]`, `[KEDVENC LEMEZEK]`. Írjuk őket nagybetűvel, szögletes zárójelek közé téve. Erre azért van szükség, hogy az oldalsávban megjelenő legutóbbi bejegyzések lista eseményei könnyebben áttekinthetőek legyenek.
+Címsorban legelső elem a `[TAG]`, ami meghatározza a bejegyzés tartalmát. Ez a `[TAG]` lehet `[MIX]`, `[INTERJÚ]`, `[KEDVENC LEMEZEK]`. Írjuk őket nagybetűvel, szögletes zárójelek közé téve.
+
+Erre azért van szükség, hogy az oldalsávban megjelenő legutóbbi bejegyzések lista eseményei könnyebben áttekinthetőek legyenek:
 
 ![Bejegyzés hozzáadás - legutóbbi bejegyzések](bejegyzes-hozzaadas-legutobbiak.png)
 
-A második elem a címsorban a bejegyzés címe. Ha dátumot tartalmaz, akkor az kerül előre, úgy mint: `2000-18-28 Jövőzene`. Legyen szép, figyeljünk a nagy kezdőbetűre.
+A második elem a címsorban a bejegyzés címe. Ha dátumot tartalmaz, akkor az kerül előre, úgy mint: `2000-18-28 Jövőzene`. Legyen szépen prezentálva, figyeljünk a nagy kezdőbetűre.
 
-A közvetlen hivatkozásnál a slug-ból töröljük a `[TAG]`-et, csak a bejegyzés címe jelenjen meg.
+<a id="cimsor-link_pelda-mix"></a>
+#### Példa a mixek bejegyzéseihez
 
-**Példa a mixek bejegyzéseihez:**
+Mixek esetén, a közvetlen hivatkozásnál a slug-ból töröljük a `[TAG]`-et, csak a bejegyzés címe jelenjen meg.
 
 **Címsor:** `[MIX] 2000-18-28 Jövőzene`
 
 **Közvetlen hivatkozás:** `[...]/palotai-depo/2000-18-28-jovozene/`
 
-## Dátumozás
+<a id="cimsor-link_pelda-altalanos"></a>
+#### Példa a további bejegyzéstípusokhoz
+
+**Címsor:** `[INTERJÚ] Sokszínűség, sok szeméttel 2003-09-13`
+
+**Közvetlen hivatkozás:** `[...]/palotai-depo/interju-sokszinuseg-sok-szemettel-2003-09-13`
+
+_[(Ugrás a tartalomjegyzékhez)](#tartalom)_
+
+---
+
+<a id="datum"></a>
+## Bejegyzések dátumozása
 
 Minden olyan tartalmnál, ahol tudjuk az eredeti megjelenési dátumot, alkamazzuk azt.
 Így lesz konzisztens az archívum, illetve ily módon sorrendben jelenik meg minden
 felsorolásban a WordPress-ben.
 
-**Példa:**
+<a id="datum_pelda"></a>
+#### Példa
 
 A `Jövőzene 2000/09/23` mix bejegyzésnél a következő beállítást alkalmazzuk:
 
 ![Bejegyzés hozzáadás - dátumozás](bejegyzes-hozzaadas-datum.png)
 
-##### Dátumozás intervallum esetén
+<a id="datum-intervallum"></a>
+### Dátumozás intervallum esetén
 
 Amikor olyan tartalomról van szó, ahol egy intervallum van megadva, ott annak az utolsó
 napját állítsuk be.
 
-**Példa:**
+<a id="datum-intervallum_pelda"></a>
+#### Példa
 
 `Az impulsecreator party-beszámolói 1999.09.18.-2001.05.19.` című bejegyzésnél a 2001. május 19-i
 dátumot fogjuk használni.
 
+_[(Ugrás a tartalomjegyzékhez)](#tartalom)_
+
 ---
 
+<a id="bejegyzes-mix-fejlec"></a>
 ## Bejegyzés fejléc-szerkezet a mixek számára
 
-#### Felépítés:
+<a id="bejegyzes-mix-fejlec_felepites"></a>
+### Felépítés
 
 **1. A bejegyzés indító**
 
@@ -122,9 +168,11 @@ Választóvonal, tovább gomb és tracklist fejléc. Ezután következik maga a 
 
 ---
 
-### Példa-fejléc elérhető tracklist-tel és letölthető mix-szel
+<a id="bejegyzes-mix-fejlec_felepites-pelda"></a>
+#### Példa-fejléc elérhető tracklist-tel és letölthető mix-szel
 
-#### Szerkezet:
+<a id="bejegyzes-mix-fejlec_felepites-pelda-szerkezet"></a>
+##### Szerkezet
 
 ``` HTML
 <h3>Jövőzene 2000/03/18</h3>
@@ -148,13 +196,17 @@ Választóvonal, tovább gomb és tracklist fejléc. Ezután következik maga a 
 <p><span class="text-highlight hi-lite-title">Tracklist:</span></p>
 ```
 
-#### Így jelenik meg a tovább kattintás után:
+<a id="bejegyzes-mix-fejlec_felepites-pelda-megjelenes"></a>
+##### Így jelenik meg a tovább kattintás után
 
 ![Bejegyzés hozzáadás - fejléc példa](bejegyzes-hozzaadas-fejlec-pelda.png)
 
+_[(Ugrás a tartalomjegyzékhez)](#tartalom)_
+
 ---
 
-### Tracklist szerkezet
+<a id="bejegyzes-mix-tracklist"></a>
+## Tracklist szerkezet
 
 A tracklist következő felépítése elsősorban az esztétikai élmény és az olvashatóság miatt érdekes, de teljesen megfelelő az is, ha csak szimplán beillesztjük a listát a fenti fejléc után.
 
@@ -180,7 +232,8 @@ Klute / Phone Call
 <span class="text-mono">CERT 18 043</span>
 ```
 
-#### Példa:
+<a id="bejegyzes-mix-tracklist_pelda"></a>
+#### Példa
 
 ``` HTML
 <span class="text-highlight">24.</span> Ram Jam World / Bluesy Baby <span class="text-cream">(Ed Rush & Optical Remix)</span> - <span class="text-mono">F-111</span>
@@ -192,13 +245,17 @@ Klute / Phone Call
 <span class="text-highlight">27.</span> Dj Food featuring Ken Nordine / The Ageing Young Rebel <span class="text-cream">(Gentle Cruelty)</span> - <span class="text-mono">ZEN LP 049</span>
 ```
 
-#### Így jelenik meg:
+<a id="bejegyzes-mix-tracklist_pelda-megjelenes"></a>
+##### Így jelenik meg
 
 ![Bejegyzés hozzáadás - tracklist](bejegyzes-hozzaadas-tracklist.png)
 
+_[(Ugrás a tartalomjegyzékhez)](#tartalom)_
+
 ---
 
-### Interjú bejegyzések
+<a id="bejegyzes-interju"></a>
+## Interjú bejegyzések
 
 Az interjúkat értelemszerűen tartalmi változtatás nélkül közöljük minden esetben, amennyiben lehetséges minden forrással ellátva.
 
@@ -214,9 +271,12 @@ Az interjúztató, kérdező, riporter sorait tegyük `span`-ba `text-question` 
 
 Palotai válaszai előtt (opcionálisan) megjeleníthető egy `P:`, vagy `P.Zs.:` jelzés `span` tag-ek között `text-pzs` class-szal ellátva. Esetlegesen, a legelső válasznál írjuk ki a teljes nevét.
 
-#### Így jelenik meg:
+<a id="bejegyzes-interju-megjelenes"></a>
+##### Így jelenik meg
 
 ![Bejegyzés hozzáadás - interjú](bejegyzes-hozzaadas-interju.png)
+
+_[(Ugrás a tartalomjegyzékhez)](#tartalom)_
 
 ---
 
