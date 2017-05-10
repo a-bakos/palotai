@@ -1,4 +1,8 @@
-## Bejegyzés közzététel
+# Bejegyzés közzététel
+
+---
+
+![Bejegyzés hozzáadás - címek](bejegyzes-hozzaadas-cimek.png)
 
 Címsorban legelső elem a `[TAG]`, ami meghatározza a bejegyzés tartalmát. Ez a `[TAG]` lehet `[MIX]`, `[INTERJÚ]`, `[KEDVENC LEMEZEK]`. Írjuk őket nagybetűvel, szögletes zárójelek közé téve. Erre azért van szükség, hogy az oldalsávban megjelenő legutóbbi bejegyzések lista eseményei könnyebben áttekinthetőek legyenek.
 
@@ -14,11 +18,31 @@ A közvetlen hivatkozásnál a slug-ból töröljük a `[TAG]`-et, csak a bejegy
 
 **Közvetlen hivatkozás:** `[...]/palotai-depo/2000-18-28-jovozene/`
 
-![Bejegyzés hozzáadás - címek](bejegyzes-hozzaadas-cimek.png)
+## Dátumozás
+
+Minden olyan tartalmnál, ahol tudjuk az eredeti megjelenési dátumot, alkamazzuk azt.
+Így lesz konzisztens az archívum, illetve ily módon sorrendben jelenik meg minden
+felsorolásban a WordPress-ben.
+
+**Példa:**
+
+A `Jövőzene 2000/09/23` mix bejegyzésnél a következő beállítást alkalmazzuk:
+
+![Bejegyzés hozzáadás - dátumozás](bejegyzes-hozzaadas-datum.png)
+
+##### Dátumozás intervallum esetén
+
+Amikor olyan tartalomról van szó, ahol egy intervallum van megadva, ott annak az utolsó
+napját állítsuk be.
+
+**Példa:**
+
+`Az impulsecreator party-beszámolói 1999.09.18.-2001.05.19.` című bejegyzésnél a 2001. május 19-i
+dátumot fogjuk használni.
 
 ---
 
-### Bejegyzés fejléc-szerkezet a mixek számára
+## Bejegyzés fejléc-szerkezet a mixek számára
 
 #### Felépítés:
 
