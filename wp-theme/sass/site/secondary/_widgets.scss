@@ -26,7 +26,11 @@
       &:first-child {
         border-top: 1px dotted rgb(222,206,165);
       }
-      
+
+      &:nth-child(odd) {
+        background: rgba(0s,0,0,0.075);
+      }
+
       a {
         padding: {
           left: 2%;
@@ -39,8 +43,8 @@
         }
       }
     }
-  }
-}
+  } // ul
+} // .widget
 
 .widget-title {
   background: rgb(222,206,165);

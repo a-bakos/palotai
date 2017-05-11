@@ -24,7 +24,11 @@ blockquote, q {
   border-radius: 5px;
   padding: 0.25% 1%;
   background: linear-gradient(to right, rgba(255,255,255,0.1) 75%, transparent);
-}
+  font: {
+    size: 1.5em;
+    family: $font-jura;
+    }
+  }
 
 hr {
 	background-color: transparent;
@@ -39,10 +43,40 @@ hr {
 img {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
-}
+  }
 
 figure {
 	margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
 }
+
+/* ----------< Mouse selection >----------> */
+
+::-moz-selection { /* Code for Firefox */
+	color: white;
+	background: $orange-mid;
+	}
+
+::selection {
+	color: white;
+	background: $orange-mid;
+	}
+
+/* ----------< Scroll bar styling >----------> */
+
+::-webkit-scrollbar { width: 15px; }
+ 
+::-webkit-scrollbar-track {
+  background: $black;
+  }
+ 
+::-webkit-scrollbar-thumb {
+  background: $orange-bright;
+  border-radius: 2px;
+  box-shadow:
+      0 0 3px $black,
+      0 0 3px $black inset;
+    
+  &:hover { box-shadow: 0 0 5px $black inset; }
+  }
 
 @import "tables";
