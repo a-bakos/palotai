@@ -1,5 +1,7 @@
 # Palotai _(archívum)_
 
+Mix playlist-ek, fellépési listák, archív interjúk, kedvenc lemezek, néhány fotó.
+
 \# | URL
 -- | ---
 Facebook | https://www.facebook.com/palotai.zsolt
