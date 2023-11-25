@@ -1,12 +1,4 @@
-# Palotai Depó _(archívum)_
-
-![Test Title](web-header.png)
-
-##### fázis: design + fejlesztés + tartalomfeltöltés
-
----
-
-#### Palotai online
+# Palotai _(archívum)_
 
 \# | URL
 -- | ---
