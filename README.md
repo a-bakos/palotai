@@ -2,6 +2,8 @@
 
 Mix playlist-ek, fellépési listák, archív interjúk, kedvenc lemezek, néhány fotó.
 
+[Spotify playlist - Palotai által játszott zenék vegyesen (folyamatban)](https://open.spotify.com/playlist/3GHZgD7nHG6EU1014G5YLE?si=12b6e3be320e4080)
+
 \# | URL
 -- | ---
 Facebook | https://www.facebook.com/palotai.zsolt
